@@ -1,0 +1,264 @@
+{
+    "parts_translation": {
+        "عفشة": "Suspension System",
+        "مساعدين": "Shock Absorbers",
+        "مقصات": "Control Arms",
+        "بارات دريكسيون": "Tie Rods",
+        "كوبلن": "CV Joint",
+        "جلب": "Bushings",
+        "بطاحات": "Strut Mounts",
+        "طنابير": "Brake Discs / Rotors",
+        "تيل فرامل": "Brake Pads",
+        "ماستر فرامل": "Brake Master Cylinder",
+        "سيرفو": "Brake Booster",
+        "موتور": "Engine",
+        "وش سلندر": "Cylinder Head",
+        "جوان وش سلندر": "Head Gasket",
+        "بساتم": "Pistons",
+        "شنابر": "Piston Rings",
+        "بيلات": "Connecting Rods",
+        "عمود الكرنك": "Crankshaft",
+        "عمود الكامة": "Camshaft",
+        "صبابات": "Valves",
+        "كارتيرة": "Oil Pan",
+        "طرمبة زيت": "Oil Pump",
+        "طرمبة مياه": "Water Pump",
+        "ريدياتير": "Radiator",
+        "قربة مياه": "Coolant Reservoir",
+        "ترموستات الكوعة": "Thermostat",
+        "فتيس": "Transmission / Gearbox",
+        "ديسك واسطوانة": "Clutch Disc and Cover",
+        "بلية دبرياج": "Clutch Release Bearing",
+        "قربة زيت باور": "Power Steering Reservoir",
+        "علبة دريكسيون": "Steering Rack",
+        "شكمان": "Exhaust System",
+        "علبة البيئة": "Catalytic Converter",
+        "حساس شكمان": "Oxygen Sensor",
+        "بوجيهات": "Spark Plugs",
+        "مباين": "Ignition Coils",
+        "رشاشات": "Fuel Injectors",
+        "طرمبة بنزين": "Fuel Pump",
+        "حساس ايدل": "Idle Air Control Valve (IAC)",
+        "حساس كرنك": "Crankshaft Position Sensor",
+        "حساس كامة": "Camshaft Position Sensor",
+        "حساس ماب": "MAP Sensor",
+        "مارش": "Starter Motor",
+        "دينامو": "Alternator",
+        "سيور": "Belts",
+        "سير كاتينة": "Timing Belt / Chain",
+        "بلية كاتينة": "Timing Idler Pulley",
+        "فلاتر": "Filters",
+        "بلي العجل": "Wheel Bearings",
+        "تنتش": "Jerking or Hesitation",
+        "تكتكة": "Clicking Noise",
+        "بتحدف": "Pulling to one side",
+        "دخنة سودا": "Black Smoke",
+        "دخنة بيضا": "White Smoke",
+        "سخنت": "Overheating",
+        "تبرجيل": "Misfire",
+        "البطارية": "Battery",
+        "الكاوتش": "Tires",
+        "بوابة الانجكشن": "Throttle Body"
+    },
+    "symptoms_map": [
+        {
+            "technical_term": "Engine Overheating",
+            "keywords": [
+                "سخونة",
+                "حرارة",
+                "المؤشر بيعلى",
+                "بتغلي",
+                "المياه بتنقص",
+                "سخنت مني",
+                "فورت مياه",
+                "العربية بتسخن",
+                "حرارة الموتور عالية",
+                "العربية سخنت فجأة",
+                "المياه بتغلي"
+            ],
+            "search_query": "engine overheating causes troubleshooting cooling system failure thermostat radiator"
+        },
+        {
+            "technical_term": "Engine Hesitation / Jerking / Misfire",
+            "keywords": [
+                "تنتش",
+                "بتقطع",
+                "نتشة",
+                "تكتيم",
+                "مش بتسحب",
+                "مخنوقة",
+                "تبرجيل",
+                "رجة في الموتور",
+                "السحب ضعيف",
+                "العربية بتقطع",
+                "في تقطيع في الموتور",
+                "الموتور بيهز",
+                "العربية مش سحب واحد"
+            ],
+            "search_query": "engine hesitation jerking acceleration loss misfire causes spark plugs fuel injector"
+        },
+        {
+            "technical_term": "Brake Noise / Failure",
+            "keywords": [
+                "صفارة",
+                "صوت مع الفرامل",
+                "الفرامل محجرة",
+                "دواسة واطية",
+                "بتاكل تيل",
+                "رجة مع الفرامل",
+                "صوت حك"
+            ],
+            "search_query": "brake noise squealing grinding pedal soft hard vibration when braking"
+        },
+        {
+            "technical_term": "Suspension / Steering Issues",
+            "keywords": [
+                "دبدبة",
+                "خبط في المطبات",
+                "العربية بتعوم",
+                "ناشفة",
+                "بتحدف",
+                "دركسيون تقيل",
+                "طقطقة في الملفات",
+                "غربلة"
+            ],
+            "search_query": "suspension knocking noise unstable steering pulling to side wheel alignment cv joint clicking"
+        },
+        {
+            "technical_term": "Starting Issues",
+            "keywords": [
+                "مش بتدور",
+                "المارش بيعلق",
+                "بطارية نايمة",
+                "تكتكة عند الدوارة",
+                "بتغيب في الدوارة",
+                "مبتقومش",
+                "العربية مش راضية تدور",
+                "العربية بتدور ومش بتشتغل",
+                "بتدور على الفاضي",
+                "مش بتشتغل غير بعد محاولات"
+            ],
+            "search_query": "engine no start cranking starting system battery alternator starter motor problems"
+        },
+        {
+            "technical_term": "Exhaust Smoke",
+            "keywords": [
+                "دخنة سودا",
+                "دخنة بيضا",
+                "دخنة زرقا",
+                "بتاكل زيت",
+                "ريحة عادم",
+                "هباب اسود",
+                "في دخان من الشكمان",
+                "العربية بتطلع دخان",
+                "الدخان طالع من ورا",
+                "الشكمان بيطلع دخان"
+            ],
+            "search_query": "exhaust smoke color diagnosis black white blue smoke oil consumption rich fuel mixture"
+        },
+        {
+            "technical_term": "Unusual Noises",
+            "keywords": [
+                "تكتكة",
+                "ونّة",
+                "صوت خشونة",
+                "زنة",
+                "صوت عالي",
+                "كركرة"
+            ],
+            "search_query": "engine knocking ticking noise whining sound grinding bearing noise"
+        },
+        {
+            "technical_term": "Transmission Issues",
+            "keywords": [
+                "الفتيس بينتش",
+                "الغيارات بتعلق",
+                "رزع في الغيار",
+                "تأخير في النقلة",
+                "زيت الفتيس"
+            ],
+            "search_query": "transmission slipping rough shifting delayed engagement gear shift problems fluid"
+        },
+        {
+            "technical_term": "Poor Fuel Economy",
+            "keywords": [
+                "بتسحب بنزين زيادة",
+                "البنزين بيخلص بسرعة",
+                "معدل البنزين عالي",
+                "بتشرب بنزين"
+            ],
+            "search_query": "poor fuel economy causes troubleshooting fuel efficiency high consumption"
+        },
+        {
+            "technical_term": "Unstable Idle",
+            "keywords": [
+                "السلانسيه مش ثابت",
+                "عدد اللفات بيعلى وينزل",
+                "الموتور مش ثابت وهو واقف",
+                "الار بي ام بيعلى وينزل"
+            ],
+            "search_query": "unstable idle rough idling causes troubleshooting idle air control valve vacuum leak"
+        },
+        {
+            "technical_term": "Electrical Issues",
+            "keywords": [
+                "لمبات بتطفي لوحدها",
+                "الالكترونيات بتتقفل",
+                "الريموت مش شغال",
+                "الداش مش شغال",
+                "في مشاكل كهربا"
+            ],
+            "search_query": "electrical issues car electronics dashboard lights remote key fob problems"
+        },
+        {
+            "technical_term": "Steering Issues",
+            "keywords": [
+                "الدركسيون تقيل",
+                "الدركسيون بيهز",
+                "الدركسيون مش سهل",
+                "في صوت في الدركسيون"
+            ],
+            "search_query": "steering issues power steering heavy vibration noise steering system problems"
+        },
+        {
+            "technical_term": "engine_vibration",
+            "keywords": [
+                "في رعشة في الموتور",
+                "الموتور بيهز",
+                "العربية بترج",
+                "في اهتزاز في العربية"
+            ],
+            "search_query": "engine vibration causes troubleshooting engine mounts ignition system fuel delivery"
+        },
+        {
+            "technical_term": "engine_stall",
+            "keywords": [
+                "العربية بتطفى فجأة",
+                "العربية بتفصل",
+                "الموتور بيطفى",
+                "بتقف لوحدها"
+            ],
+            "search_query": "engine stall causes troubleshooting idle air control valve fuel delivery ignition system"
+        },
+        {
+            "technical_term": "engine_noise",
+            "keywords": [
+                "الموتور صوته عالي",
+                "في صوت غريب من الموتور",
+                "الموتور مزعج",
+                "في خبط في الموتور"
+            ],
+            "search_query": "engine noise causes knocking ticking whining grinding sounds"
+        },
+        {
+            "technical_term": "weak_acceleration",
+            "keywords": [
+                "السحب ضعيف",
+                "العربية مش بتجري",
+                "العربية تقيلة في المشي",
+                "مش بتسحب كويس"
+            ],
+            "search_query": "weak acceleration causes troubleshooting fuel delivery ignition system turbocharger"
+        }
+    ]
+}
